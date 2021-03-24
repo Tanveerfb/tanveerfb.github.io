@@ -1,1 +1,15 @@
 
+<?php
+
+
+$name = "This is the plain text version of the email content";
+$email = "Tanveerfb@gmail.com";
+$phone = "This is the plain text version of the email content";
+$message = "This is the plain text version of the email content";
+
+$mailto = "tanveer0897@protonmail.com";
+$head = "Example NCA email from " .$name;
+$msg = "Content = " .$message . "\n\nPhone = " .$phone . "\n\nEmail address = " .$email;
+
+mail($mailto,$head,$msg);
+ 
