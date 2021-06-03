@@ -38,6 +38,9 @@ a.nav:hover{
     color: peachpuff;
 }
 
+.mobile-nav{
+    display: none;
+}
 .mobile-links{
     max-width: 100%;
     display: none;
