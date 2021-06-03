@@ -6,42 +6,23 @@
         <link href="plasma.css" rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <div class="container desktop-nav">
-            <div class="left">
-                <a href="#">
-                    <img class="nav-logo" src="ts logo.png">
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li> <a href="#" class="nav">About me</a></li>
-                    <li><a href="#" class="nav">Personal work</a></li>
-                    <li><a href="#" class="nav">Contact me</a></li>
-                    <li><a href="#" class="nav">My Blog</a></li>
 
-                </ul>
-            </nav>
-        </div>
-        <div class="container mobile-nav">
-            <div class="left">
-                <a href="#">
-                    <img class="nav-logo" src="ts logo.png">
-                </a>
-            </div>
-            <nav>
-                <a onclick="showmobilenav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
-                
-                <div id="mLinks" class="mobile-links">
+            <header class = "sticky-top" id="header-top">
+                <div class="navbar">
+                    <div class="container-fluid">
+                        <div>
+                            <a href="index.html">
+                                <img class="nav-logo" src="ts logo.png"></a>
+                        </div>
+                    </div>
                     <ul>
-                        <li> <a href="#" class="nav">About me</a></li>
-                        <li><a href="#" class="nav">Personal work</a></li>
-                        <li><a href="#" class="nav">Contact me</a></li>
-                        <li><a href="#" class="nav">My Blog</a></li>
-
+                        <li><a class="nav" href="#">About me</a></li>
+                        <li><a class="nav" href="#">Experience</a></li>
+                        <li><a class="nav" href="#">Contact me</a></li>
+                        <li><a class="nav" href="#">My Blog</a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </header>
         <script>
             function showmobilenav() {
                     var x = document.getElementById("mLinks");

@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
     max-width: 80%;
     margin: auto;
@@ -7,49 +9,48 @@ body{
 .container{
     clear:both;
   }
-nav{
-    text-align: center;
-    background-color: orangered;
-    padding: 10px;
+
+#header-top {
+    background-color: firebrick;
+    opacity: 1;
 }
-.mobile-nav{
-    display: none;
+.sticky-top {
+    top: 0;
+    z-index: 1020;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-logo{
-    width: 90;
+    margin-left: 10%;
+    width : 30%;
     height: auto;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    margin-left: 30%;
+
 }
-ul li{
-    display: inline-block;
+ul{
+    margin-right: 10%;
+}
+ul li {
+    display: inline;
     padding: 10px;
 }
+
 a.nav{
-    color: peachpuff;
     text-decoration: none;
-    padding: 20px;
-    margin: 10px;
-}
-a.nav:hover{
-    background-color: rgb(124, 58, 58);
     color: peachpuff;
 }
-
-.mobile-nav{
-    display: none;
-}
-.mobile-links{
-    max-width: 100%;
-    display: none;
-}
-.mobile-links a.nav{
-    max-width: 100%;
-    padding: 10px;
-}
-
 
 .banner{
     width: 100%;
@@ -95,22 +96,4 @@ a.nav:hover{
    body{
        max-width: 100%;
    }
-   .desktop-nav{
-       display: none;
-   }
-   .mobile-nav{
-       display: block;
-   }
-   .nav-logo{
-       width: 10%;
-       float: left;
-       margin-left: 10%;
-       margin-top: 2px;
-       padding: auto;
-   }
-   ul li{
-       display: block;
-       padding: 10px;
-   }
-   
 }
