@@ -44,12 +44,17 @@ ul{
 }
 ul li {
     display: inline;
-    padding: 10px;
 }
 
 a.nav{
     text-decoration: none;
     color: peachpuff;
+    padding: 20px;
+}
+a.nav:hover{
+    text-decoration: none;
+    color: firebrick;
+    background-color: peachpuff;
 }
 
 .banner{
@@ -92,8 +97,13 @@ a.nav{
     display: none;
 }
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 900px) {
    body{
        max-width: 100%;
    }
+   a.nav{
+    text-decoration: none;
+    color: peachpuff;
+    padding: 5px;
+}
 }
