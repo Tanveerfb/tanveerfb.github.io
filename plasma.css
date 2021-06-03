@@ -1,0 +1,78 @@
+
+body{
+    max-width: 80%;
+    margin: auto;
+}
+
+.container{
+    clear:both;
+  }
+nav{
+    text-align: center;
+    background-color: orangered;
+    padding: 10px;
+}
+.nav-logo{
+    width: 90;
+    height: auto;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: 30%;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+a.nav{
+    color: peachpuff;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+}
+a.nav:hover{
+    background-color: rgb(124, 58, 58);
+    color: peachpuff;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url("1037075.jpg");
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    opacity: 0.9;
+    width: 70%;
+    height: 10%;
+    font-size: x-large;
+    color: peachpuff;
+    font-variant: small-caps;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.border{
+    border: 5px solid peachpuff;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.thirty-percent{
+    max-width: 30%;
+}
+
+@media screen and (max-width : 1000px) {
+   body{
+       max-width: 100%;
+   }
+}
