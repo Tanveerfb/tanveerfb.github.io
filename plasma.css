@@ -124,6 +124,9 @@ a.nav:hover{
 .desktop-nav{
     display: none;
 }
+.container-fluid{
+    max-width: 50%;
+}
 .mobile-nav{
     display: block;
 }
