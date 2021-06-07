@@ -118,4 +118,8 @@ a.nav:hover{
 #mLinks{
     display: none;
 }
+#mLinks a.nav{
+    display: block;
+    text-align: center;
+}
 }
