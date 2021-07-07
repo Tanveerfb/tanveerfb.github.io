@@ -2,9 +2,15 @@
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
+@keyframes example {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+  }
 body{
     max-width: 80%;
     margin: auto;
+    animation-name: example;
+    animation-duration: 2s;
 }
 div{
     padding : 0px 10px;
