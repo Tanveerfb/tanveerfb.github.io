@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-variant: small-caps;
+    font-family: 'Comfortaa', cursive;
 }
 body{
     max-width: 80%;
@@ -59,7 +59,11 @@ ul{
 ul li {
     display: inline;
 }
-
+a{
+    text-decoration: none;
+    color: grey;
+    font-variant: small-caps;
+}
 a.nav{
     text-decoration: none;
     color: peachpuff;
@@ -146,6 +150,34 @@ a.nav:hover{
     margin: auto;
     text-align: center;
 }
+.form-btn{
+    padding: 10px;
+    background-color: firebrick;
+    color: peachpuff;
+    border: 0;
+    width: 45%;
+    margin: 2px 0px;
+}
+form{
+    max-width: 80%;
+    margin: auto;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0px;
+
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+    scroll-behavior: smooth;
+    margin: 2px 0px;
+}
+
+.inline{
+    display: inline;
+}
 .left{
     float: left;
 }
@@ -157,6 +189,17 @@ a.nav:hover{
 }
 .inactive{
     display: none;
+}
+.contact-section{
+    width: 100%;
+}
+.contact-form{
+    max-width: 50%;
+    float: left;
+}
+.contact-options{
+    max-width: 50%;
+    float: left;
 }
 
 @media screen and (max-width : 1167px) {
@@ -176,6 +219,7 @@ a.nav:hover{
 }
 .mobile-nav{
     display: block;
+    position: sticky;
 }
 #mLinks{
     display: none;
@@ -183,6 +227,14 @@ a.nav:hover{
 #mLinks a.nav{
     display: block;
     text-align: center;
+}
+.contact-form{
+    max-width: 100%;
+    float: none;
+}
+.contact-options{
+    max-width: 100%;
+    float: none;
 }
 .banner-img{
     width: 60%;
