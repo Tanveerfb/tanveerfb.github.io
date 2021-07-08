@@ -211,6 +211,7 @@ textarea{
 @media screen and (max-width : 1167px) {
    body{
        max-width: 100%;
+       margin: auto;
    }
    a.nav{
     text-decoration: none;
