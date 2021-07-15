@@ -62,12 +62,16 @@ img{
 ul{
     margin-right: 10%;
 }
-ul li {
+ul li{
+    padding: 2px;
     display: inline;
+}
+ol{
+    list-style-type: square;
 }
 a{
     text-decoration: none;
-    color: grey;
+    color: goldenrod;
     font-variant: small-caps;
 }
 a.nav{
@@ -136,7 +140,7 @@ a.nav:hover{
     padding: 10px;
 }
 .styleHeading{
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'Righteous', cursive;
     color: peachpuff;
     margin : 1px 0 ;
     background-color: firebrick;
@@ -192,6 +196,9 @@ textarea{
 }
 .thirty-percent{
     max-width: 30%;
+}.half-percent{
+    max-width: 50%;
+    margin: auto;
 }
 .inactive{
     display: none;
@@ -206,6 +213,9 @@ textarea{
 .contact-options{
     max-width: 50%;
     float: left;
+}
+.padding{
+    padding: 5px;
 }
 
 @media screen and (max-width : 1167px) {
@@ -253,5 +263,9 @@ textarea{
 }
 .textfull{
     font-size: medium;
+}
+.half-percent{
+    max-width: 90%;
+    margin: auto;
 }
 }
